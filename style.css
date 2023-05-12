@@ -1,0 +1,50 @@
+
+.yellow-button {
+  color: black;
+  background-color: chocolate;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.yellow-button:hover {
+  background-color: rgb(255, 106, 0);
+  border: 1px solid yellowgreen;
+  transform: translateX(-2px) translateY(-2px);
+}
+.yellow-button:active {
+  transform: scale(1.01);
+}
+p {
+  font-family: Arial;
+  font-size: 22px;
+}
+.quantity{
+    color: black;
+    background-color: chocolate;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.reset-cart{
+    color: black;
+    background-color:chocolate;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    background-color: rgba(210, 105, 30, 0.522);
+    height: 70px;
+    border-radius: 10px;
+}
+.cart button{
+    margin-left: 10px;
+}

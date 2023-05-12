@@ -1,0 +1,49 @@
+.game{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.771);
+    align-items: center;
+    justify-content: center;
+}
+.game button{
+    margin-left: 30px;
+}
+
+.rock{
+    color: white;
+    background-color: rgb(97, 54, 11);
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+}
+.rock:hover{
+    background-color:rgba(97, 54, 11, 0.718) ;
+}
+.paper{
+    color: black;
+    background-color: rgb(55, 84, 84);
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+}
+.paper:hover{
+    background-color:rgba(55, 84, 84, 0.837); ;
+}
+.scissors{
+    color: white;
+    background-color: rgb(112, 109, 109);
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+}
+.scissors:hover{
+    background-color:rgba(112, 109, 109, 0.863) ;
+}
+p {
+    font-size: 22px;
+    font-family: Arial;
+}
