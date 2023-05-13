@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>booleans practice</title>
-    <link rel="stylesheet" href="style2.css">
-</head>
-<body>
-    <p>
-        Rock Paper Scissors
-    </p>
-    <div class="game">
-        <button class="rock" onclick=" Rock()">
-            rock
-        </button>
-    
-        <button class="paper" onclick="Paper()">
-            paper
-        </button>
-    
-        <button class="scissors" onclick="scissors()">
-            scissors
-        </button>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <p>Rock Paper Scissors</p>
+    <div class="front-page">
+      <div class="game">
+        <button class="rock" onclick="  choice('rock')">rock</button>
+  
+        <button class="paper" onclick=" choice('paper')">paper</button>
+  
+        <button class="scissors" onclick=" choice('scissors')">scissors</button>
+  
+        <button class="reset-button"onclick="resetScore()">reset score</button>
+      </div>
+      <p class="js-result"></p>
+      <p class="js-moves"></p>
+      <p class="js-score"></p>
     </div>
-    
-    <script src="index2.js">   </script>
-</body>
+    <script src="index2.js"></script>
+  </body>
 </html>

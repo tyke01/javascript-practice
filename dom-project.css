@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Arial;
+  }
+
+  .js-subscribe{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: chocolate;
+    margin-left: 20px;
+  }
+
+  .js-subscribe:hover{
+    background-color: rgba(210, 105, 30, 0.923);
+  }
+  .js-subscribe:active{
+    background-color: transparent;
+    color: chocolate;
+    border: 1.5px solid chocolate;
+  }

@@ -1,49 +1,117 @@
-.game{
-    display: flex;
-    height: 70px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.771);
-    align-items: center;
-    justify-content: center;
-}
-.game button{
-    margin-left: 30px;
+.front-page {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.771);
+  width: 600px;
+  height: 500px;
+  align-items: center;
+  margin-left: 25%;
 }
 
-.rock{
-    color: white;
-    background-color: rgb(97, 54, 11);
-    height: 40px;
-    width: 90px;
-    border-radius: 20px;
-    border: none;
+.game {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.771); */
+  align-items: center;
+  justify-content: center;
 }
-.rock:hover{
-    background-color:rgba(97, 54, 11, 0.718) ;
+.game button {
+  margin-left: 30px;
 }
-.paper{
-    color: black;
-    background-color: rgb(55, 84, 84);
-    height: 40px;
-    width: 90px;
-    border-radius: 20px;
-    border: none;
+
+.rock {
+  color: white;
+  background-color: rgb(97, 54, 11);
+  height: 40px;
+  width: 90px;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.2s ease-in-out;
 }
-.paper:hover{
-    background-color:rgba(55, 84, 84, 0.837); ;
+.rock:hover {
+  background-color: rgba(97, 54, 11, 0.718);
 }
-.scissors{
-    color: white;
-    background-color: rgb(112, 109, 109);
-    height: 40px;
-    width: 90px;
-    border-radius: 20px;
-    border: none;
+.rock:active{
+  background-color: transparent;
+  border: 1.5px solid rgb(97, 54, 11) ;
 }
-.scissors:hover{
-    background-color:rgba(112, 109, 109, 0.863) ;
+.paper {
+  color: black;
+  background-color: rgb(55, 84, 84);
+  height: 40px;
+  width: 90px;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.paper:hover {
+  background-color: rgba(55, 84, 84, 0.837);
+}
+.paper:active{
+  background-color: transparent;
+  color: white;
+  border: 1.5px solid rgb(55, 84, 84) ;
+}
+.scissors {
+  color: white;
+  background-color: rgb(112, 109, 109);
+  height: 40px;
+  width: 90px;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.scissors:hover {
+  background-color: rgba(112, 109, 109, 0.863);
+}
+.scissors:active{
+  background-color: transparent;
+  border: 1.5px solid  rgb(112, 109, 109);
 }
 p {
-    font-size: 22px;
-    font-family: Arial;
+  font-size: 22px;
+  font-family: Arial;
+}
+.reset-button {
+  background-color: rgb(0, 255, 255);
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+  border: none;
+}
+.reset-button:hover {
+  background-color: rgba(0, 255, 255, 0.903);
+}
+.reset-button:active{
+  background-color: transparent;
+  color: white;
+  border: 1.5px solid rgb(0, 255, 255) ;
+}
+.js-score {
+  /* background-color: white; */
+  color: white;
+  width: 200px;
+  height: 40px;
+  font-family: Arial;
+  font-size: 16px;
+  margin-left: 0px;
+  text-align: center;
+}
+.js-result {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Arial;
+  width: 200px;
+  text-align: center;
+
+}
+.js-moves {
+  color: white;
+  font-size: 20px;
+  font-weight: 500px;
+  font-family: Arial;
+  width: 200px;
+  text-align: center;
 }

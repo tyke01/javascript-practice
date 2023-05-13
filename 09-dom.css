@@ -1,0 +1,16 @@
+button{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: chocolate;
+    border: none;
+    border-radius: 15px;
+}
+.js-button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: chocolate;
+    border: none;
+    border-radius: 15px;
+}
