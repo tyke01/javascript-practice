@@ -37,7 +37,7 @@ function choice(playerMove) {
             result = 'it\'s a tie';
         }
         else if (compMove === 'paper') {
-            result = 'you lose fucker !!!';
+            result = 'you lose fucker 🖕🖕😂!!!';
         }
         else if (compMove === 'scissors') {
             result = 'you win !!!';
@@ -53,14 +53,15 @@ function choice(playerMove) {
             result = 'it\'s a tie';
         }
         else if (compMove === 'scissors') {
-            result = 'you lose fucker !!!';
+            result = 'you lose fucker 🖕🖕😂 !!!';
         }
     }
 
     //choice 3
     if (playerMove === 'scissors') {
         if (compMove === 'rock') {
-            result = 'you lose fucker !!!';
+            result = 'you lose fucker 🖕🖕😂 !!!'
+                ;
         }
         else if (compMove === 'paper') {
             result = 'you win !!!';
@@ -74,7 +75,7 @@ function choice(playerMove) {
     if (result === 'you win !!!') {
         score.wins += 1;
     }
-    else if (result === 'you lose fucker !!!') {
+    else if (result === 'you lose fucker 🖕🖕😂 !!!') {
         score.losses += 1;
     }
     else if (result === 'it\'s a tie') {
@@ -86,20 +87,20 @@ function choice(playerMove) {
     updateScore();
     updateResult();
     updateMoves();
-function updateScore() {
-    document.querySelector('.js-score')
-        .innerHTML = `wins: ${score.wins}, losses: ${score.losses}, ties: ${score.ties}`;
-}
-function updateResult() {
-    document.querySelector('.js-result')
-        .innerHTML = `${result}`
-}
-function updateMoves() {
-    document.querySelector('.js-moves')
-        .innerHTML = ` computer: ${compMove}, 
-                        you:${playerMove}`;
+    function updateScore() {
+        document.querySelector('.js-score')
+            .innerHTML = `wins: ${score.wins}, losses: ${score.losses}, ties: ${score.ties}`;
+    }
+    function updateResult() {
+        document.querySelector('.js-result')
+            .innerHTML = `${result}`
+    }
+    function updateMoves() {
+        document.querySelector('.js-moves')
+            .innerHTML = `you chose:${playerMove}
+                    computer: ${compMove},`;
 
-}
+    }
     /*alert(`you picked ${playerMove}. computer picked ${compMove}. ${result}
     wins: ${score.wins}, losses: ${score.losses}, ties: ${score.ties}`);*/
 }
@@ -111,7 +112,7 @@ function resetScore() {
     localStorage.removeItem('score');
     // alert(`the score has been reset.
     // wins: ${score.wins}, losses: ${score.losses}, ties: ${score.ties}`);
-    document.querySelector('.js-result').innerHTML=`wins: ${score.wins}, losses: ${score.losses}, ties: ${score.ties}`
+    document.querySelector('.js-result').innerHTML = `wins: ${score.wins}, losses: ${score.losses}, ties: ${score.ties}`
     document.querySelector('.js-result')
         .innerHTML = `the score has been reset`;
     updateScore();

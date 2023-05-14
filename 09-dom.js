@@ -1,17 +1,12 @@
-/*document.body.innerHTML= 'hello'
-document.title='good job'*/
-/*console.log(document.title);
-document.title='changed';
-console.log(document.body);
-document.body.innerHTML= 'changed'
-document.body.innerHTML='<button>good job</button>'*/
-console.log(document.querySelector('button')
-    .innerHTML);
+function caculateTotal(){
+    const inputElement=(document.querySelector('.enter-val'));
+    let cost= Number(inputElement.value);
+    // console.log(cost)
 
-
-console.log(document.querySelector('.js-button').innerHTML);
-
-const buttonElement= document.querySelector('js-button');
-
-console.log(buttonElement);
-// console.log(document.querySelector('button'))
+    if(cost<100){
+        cost+=10;
+        
+    }
+    document.querySelector('.js-total-cost').innerHTML= `${cost}shs`
+    
+}

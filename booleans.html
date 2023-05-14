@@ -8,16 +8,25 @@
     <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
-    <p>Rock Paper Scissors</p>
+    <p class="heading">Rock Paper Scissors</p>
     <div class="front-page">
       <div class="game">
-        <button class="rock" onclick="  choice('rock')">rock</button>
-  
-        <button class="paper" onclick=" choice('paper')">paper</button>
-  
-        <button class="scissors" onclick=" choice('scissors')">scissors</button>
-  
-        <button class="reset-button"onclick="resetScore()">reset score</button>
+        <button class="rock" onclick="  choice('rock')">
+          <img src="thumbnails/icons8-rock.png" alt="rock" />
+          rock
+        </button>
+
+        <button class="paper" onclick=" choice('paper')">
+          <img src="thumbnails/icons8-paper.png" alt="paper" />
+          paper
+        </button>
+
+        <button class="scissors" onclick=" choice('scissors')">
+          <img src="thumbnails/icons8-scissors.png" alt="scissors" />
+          scissors
+        </button>
+
+        <button class="reset-button" onclick="resetScore()">reset score</button>
       </div>
       <p class="js-result"></p>
       <p class="js-moves"></p>
@@ -26,3 +35,4 @@
     <script src="index2.js"></script>
   </body>
 </html>
+

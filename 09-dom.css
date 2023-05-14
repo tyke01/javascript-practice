@@ -1,16 +1,97 @@
-button{
-    width: 80px;
-    height: 30px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .home-page{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    left: 300px;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  }
+  .title{
+    font-size: 30px;
+    font-family: Arial;
+    margin-left: 35%;
+    margin-top: 20px;
+  }
+  .enter-val{
+    background-color: #ff006e;
+    height: 50px;
+    width: 200px;
     color: white;
-    background-color: chocolate;
     border: none;
-    border-radius: 15px;
-}
-.js-button{
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial;
+    padding-left: 10px;
+  }
+  input::placeholder{
+    color: rgb(212, 209, 209);
+  }
+  .calculate{
+    height: 49px;
     width: 100px;
-    height: 30px;
-    color: white;
-    background-color: chocolate;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #ff006e;
+    color: white;
+    transition: all 0.2s ease-in-out;
+  }
+  .calculate:hover{
+    background-color:#c9184a ;
+  }
+  .calculate:active{
+    background-color: transparent;
+    border: 2px solid #a4133c;
+    color: white;
+  }
+ .order-text{
+    position: relative;
+    width: 300px;
+    height: 90px;
+    /* background-color: chocolate; */
+    color: white;
+    top: 30px;
+    left: 50px;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  .buttons{
+    position: relative;
+    top: 20px;
+    left: 50px;
+
+  }
+.js-total-cost{
+    width: 100px;
+    height: 40px;
+    background-color: #a4133c;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: Arial;
+}
+.total{
+    width: 150px;
+    height: 40px;
+    /* background-color: #a4133c; */
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: Arial;
 }

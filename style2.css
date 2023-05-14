@@ -5,69 +5,90 @@
   width: 600px;
   height: 500px;
   align-items: center;
+  border-radius: 10px;
   margin-left: 25%;
 }
-
+.heading {
+  color: rgba(0, 0, 0, 0.771);
+  font-size: 30px;
+  margin-left: 38%;
+}
 .game {
   display: flex;
   height: 100px;
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.771); */
   align-items: center;
   justify-content: center;
 }
 .game button {
   margin-left: 30px;
 }
-
 .rock {
   color: white;
   background-color: rgb(97, 54, 11);
-  height: 40px;
+  height: 90px;
   width: 90px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: none;
+  margin-top: 40px;
   transition: all 0.2s ease-in-out;
+}
+.rock img {
+  width: 40px;
+  height: auto;
+  padding: 0px 10px 0px 10px;
 }
 .rock:hover {
   background-color: rgba(97, 54, 11, 0.718);
 }
-.rock:active{
+.rock:active {
   background-color: transparent;
-  border: 1.5px solid rgb(97, 54, 11) ;
+  border: 1.5px solid rgb(97, 54, 11);
 }
 .paper {
   color: black;
   background-color: rgb(55, 84, 84);
-  height: 40px;
+  height: 90px;
   width: 90px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: none;
+  margin-top: 40px;
   transition: all 0.2s ease-in-out;
+}
+.paper img {
+  width: 40px;
+  height: auto;
+  padding: 0px 10px 0px 10px;
 }
 .paper:hover {
   background-color: rgba(55, 84, 84, 0.837);
 }
-.paper:active{
+.paper:active {
   background-color: transparent;
   color: white;
-  border: 1.5px solid rgb(55, 84, 84) ;
+  border: 1.5px solid rgb(55, 84, 84);
 }
 .scissors {
   color: white;
   background-color: rgb(112, 109, 109);
-  height: 40px;
+  height: 90px;
   width: 90px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: none;
+  margin-top: 40px;
   transition: all 0.2s ease-in-out;
+}
+.scissors img {
+  width: 40px;
+  height: auto;
+  padding: 0px 10px 0px 10px;
 }
 .scissors:hover {
   background-color: rgba(112, 109, 109, 0.863);
 }
-.scissors:active{
+.scissors:active {
   background-color: transparent;
-  border: 1.5px solid  rgb(112, 109, 109);
+  border: 1.5px solid rgb(112, 109, 109);
 }
 p {
   font-size: 22px;
@@ -79,17 +100,19 @@ p {
   width: 90px;
   border-radius: 5px;
   border: none;
+  margin-top: 40px;
 }
 .reset-button:hover {
   background-color: rgba(0, 255, 255, 0.903);
 }
-.reset-button:active{
+.reset-button:active {
   background-color: transparent;
   color: white;
-  border: 1.5px solid rgb(0, 255, 255) ;
+  border: 1.5px solid rgb(0, 255, 255);
 }
 .js-score {
   /* background-color: white; */
+  width: 100px;
   color: white;
   width: 200px;
   height: 40px;
@@ -97,6 +120,7 @@ p {
   font-size: 16px;
   margin-left: 0px;
   text-align: center;
+  margin-top: 40px;
 }
 .js-result {
   color: white;
@@ -105,7 +129,7 @@ p {
   font-family: Arial;
   width: 200px;
   text-align: center;
-
+  margin-top: 40px;
 }
 .js-moves {
   color: white;
@@ -114,4 +138,5 @@ p {
   font-family: Arial;
   width: 200px;
   text-align: center;
+  margin-top: 40px;
 }

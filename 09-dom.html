@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM</title>
-    <link rel="stylesheet" href="09-dom.css">
-</head>
-<body>
-    <button>hello</button>
-    <button class="js-button">second button</button>
-    <script src="09-dom.js">
+    <link rel="stylesheet" href="09-dom.css" />
+  </head>
+  <body>
+    <p class="title">amazon shopping calculator</p>
+    <main class="home-page">
+      <div class="order-text">
+        <p class="order1">-order under 100Ksh: 10Ksh shipping</p>
+        <p class="order2">-order over 100Ksh: FREE shipping</p>
+      </div>
 
-    </script>
-</body>
+      <div class="buttons">
+        <input type="text" class="enter-val" placeholder="enter amount in Ksh" />
+        <button class="calculate" onclick="caculateTotal()">calculate</button>
+      </div>
+      <p class="total">
+        total cost cost is: 
+      </p>
+      <p class="js-total-cost">
+
+      </p>
+
+    </main>
+    <script src="09-dom.js"></script>
+  </body>
 </html>
