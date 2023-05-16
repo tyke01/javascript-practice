@@ -1,12 +1,16 @@
-function caculateTotal(){
-    const inputElement=(document.querySelector('.enter-val'));
-    let cost= Number(inputElement.value);
+function caculateTotal(event) {
+    const inputElement = (document.querySelector('.enter-val'));
+    let cost = Number(inputElement.value);
     // console.log(cost)
 
-    if(cost<100){
-        cost+=10;
-        
+    if (cost < 100) {
+        cost += 10;
     }
-    document.querySelector('.js-total-cost').innerHTML= `${cost}shs`
-    
+    document.querySelector('.js-total-cost').innerHTML = `${cost}shs`
 }
+function handleEnter(event) {
+    if (event.key === 'Enter') {
+        caculateTotal();
+    }
+}
+

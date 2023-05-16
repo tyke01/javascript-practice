@@ -11,6 +11,7 @@
 .heading {
   color: rgba(0, 0, 0, 0.771);
   font-size: 30px;
+  font-weight: 900;
   margin-left: 38%;
 }
 .game {
@@ -29,7 +30,7 @@
   height: 90px;
   width: 90px;
   border-radius: 10px;
-  border: none;
+  border: 1px solid white;
   margin-top: 40px;
   transition: all 0.2s ease-in-out;
 }
@@ -51,7 +52,7 @@
   height: 90px;
   width: 90px;
   border-radius: 10px;
-  border: none;
+  border: 1px solid white;
   margin-top: 40px;
   transition: all 0.2s ease-in-out;
 }
@@ -74,7 +75,7 @@
   height: 90px;
   width: 90px;
   border-radius: 10px;
-  border: none;
+  border: 1px solid white;
   margin-top: 40px;
   transition: all 0.2s ease-in-out;
 }
@@ -132,6 +133,9 @@ p {
   margin-top: 40px;
 }
 .js-moves {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
   font-size: 20px;
   font-weight: 500px;
@@ -139,4 +143,10 @@ p {
   width: 200px;
   text-align: center;
   margin-top: 40px;
+}
+.move-icon{
+  width: 40px;
+  height: auto;
+  margin: 5px 50px 5px 0px ;
+  padding-top: 0px;
 }

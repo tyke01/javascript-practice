@@ -97,8 +97,9 @@ function choice(playerMove) {
     }
     function updateMoves() {
         document.querySelector('.js-moves')
-            .innerHTML = `you chose:${playerMove}
-                    computer: ${compMove},`;
+            .innerHTML = `you: <img class="move-icon" src="thumbnails/icons8-${playerMove}.png" alt="">
+            computer: <img class="move-icon" src="thumbnails/icons8-${compMove}.png" alt="">
+           `;
 
     }
     /*alert(`you picked ${playerMove}. computer picked ${compMove}. ${result}

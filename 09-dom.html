@@ -16,17 +16,16 @@
       </div>
 
       <div class="buttons">
-        <input type="text" class="enter-val" placeholder="enter amount in Ksh" />
+        <input type="text" class="enter-val" placeholder="enter amount in Ksh" onkeydown="handleEnter(event)" />
         <button class="calculate" onclick="caculateTotal()">calculate</button>
       </div>
       <p class="total">
         total cost cost is: 
       </p>
       <p class="js-total-cost">
-
       </p>
-
     </main>
     <script src="09-dom.js"></script>
   </body>
 </html>
+

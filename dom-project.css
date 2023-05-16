@@ -16,16 +16,23 @@
     height: 40px;
     border: none;
     border-radius: 20px;
-    color: white;
-    background-color: chocolate;
+    color: black;
+    background-color: rgba(171, 168, 168, 0.4);
     margin-left: 20px;
+    transition: all 0.1s ease-in-out;
+    box-shadow: 2px 2px 4px rgba(72, 70, 70, 0.5);
   }
 
   .js-subscribe:hover{
-    background-color: rgba(210, 105, 30, 0.923);
+    background-color: rgba(156, 154, 154, 0.562)
   }
   .js-subscribe:active{
     background-color: transparent;
-    color: chocolate;
-    border: 1.5px solid chocolate;
+    color: rgba(0, 0, 0, 0.721);
+    border: 1.5px solid gray;
+  }
+  .is-subscribed{
+    background-color: rgba(223, 215, 215, 0.8);
+    color: black;
+    border: 1px solid rgba(128, 128, 128, 0.595);
   }
