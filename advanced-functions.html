@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>booleans practice</title>
+    <link rel="stylesheet" href="advanced-funcions.css" />
+  </head>
+  <body>
+    <main>
+      <p class="heading">Rock Paper Scissors</p>
+      <div class="front-page">
+        <div class="game">
+          <button class="rock" onclick="  choice('rock')">
+            <img src="thumbnails/icons8-rock.png" alt="rock" />
+            rock
+          </button>
+
+          <button class="paper" onclick=" choice('paper')">
+            <img src="thumbnails/icons8-paper.png" alt="paper" />
+            paper
+          </button>
+
+          <button class="scissors" onclick=" choice('scissors')">
+            <img src="thumbnails/icons8-scissors.png" alt="scissors" />
+            scissors
+          </button>
+
+          <button class="reset-button" onclick="resetScore()">
+            reset score
+          </button>
+        </div>
+        <button class="auto-play" onclick="autoplay()">auto play</button>
+
+        <p class="js-result"></p>
+        <p class="js-moves"></p>
+        <p class="js-score"></p>
+      </div>
+    </main>
+
+    <script src="advanced-functions.js"></script>
+  </body>
+</html>
