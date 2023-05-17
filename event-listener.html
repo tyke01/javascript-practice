@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>event listener</title>
+    <link rel="stylesheet" href="event-listener.css" />
+  </head>
+  <body>
+    <button id="myButton">Click Me</button>
+
+    <p id="text1" class="display1">me</p>
+
+    <button id="calc-test" class="test1" onclick="appendNumber('1')">1</button>
+
+    <button class="test1" id="calc-test2" onclick="appendNumber('2')">2</button>
+
+    <button
+      class="operator"
+      class="test2"
+      id="calc-test3"
+      onclick="appendOperator('/')"
+    >
+      /
+    </button>
+
+    <script src="event-listener.js"></script>
+  </body>
+</html>

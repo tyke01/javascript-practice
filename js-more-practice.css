@@ -1,0 +1,80 @@
+/* .label{
+    font-family: Arial;
+    /* padding-bottom: 10px; 
+
+}
+.input{
+    margin: 10px 0px 10px 0px ;
+    background: #ff006e;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: white;
+    
+}
+.input::placeholder{
+    color: rgb(208, 204, 204);
+    font-size: 16px;
+    font-family: ARial;
+}
+.button{
+    background: #ff006e;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+} */
+
+
+/* .a-input{
+    background: #ff006e;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0px 10px 0px ;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.a-input::placeholder{
+    color: rgb(224, 222, 222);
+}
+.calculate-button{
+    background: #023e8a;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    color: white;
+    margin: 0px 0px 10px 0px ;
+}
+.c-output{
+    background: #023e8a;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 10px ;
+} */
+.decrease-button{
+    background: #8338ec;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #3498db;
+}
+.c-output{
+    font-size: 50px;
+    margin-left: 170px;
+    color: #6930c3;
+
+}
