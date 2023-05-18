@@ -8,23 +8,73 @@
     <link rel="stylesheet" href="event-listener.css" />
   </head>
   <body>
-    <button id="myButton">Click Me</button>
+    <main class="back-body">
+      <header class="top-section">
+        <div class="menu-bar">
+          <button class="drop-down" id="dropbtn">menu</button>
+          <ul id="dropdownMenu" class="dropMenu">
+            <li>contact</li>
+            <li>about</li>
+            <li>projects</li>
+            <li>blog</li>
+          </ul>
+        </button>
+        </div>
+        <div class="second-menu">
+          <a href="#home-section">Home</a>
+          <a href="#about-section">About</a>
+          <a href="#">Contacts</a>
+          <a href="#projects">Projects</a>
+          <a href="#blogs">Blogs</a>
+          <a href="#final-section">Reach me</a>
+        </div>
+      </header>
+      <div class="front-work-page">
 
-    <p id="text1" class="display1">me</p>
+        <section id="home-section" class="home-section">
 
-    <button id="calc-test" class="test1" onclick="appendNumber('1')">1</button>
+          <p class="headings">HOME</p>
 
-    <button class="test1" id="calc-test2" onclick="appendNumber('2')">2</button>
+          <div class="inner-home">
+            <img src="new-thumbnails/owner.jpg" alt="owmer" class="owner-img">
+            <div class="my-text">
+              <p class="intro">
+                My name is <br><span>Victor  Macharia </span> <br> and i'm a fullstack developer
+              </p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quod at labore amet accusantium nesciunt sunt nobis optio? Obcaecati, consequuntur neque. Et ex accusantium id labore ab fuga tempore quis?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quod at labore amet accusantium nesciunt sunt nobis optio? Obcaecati, consequuntur neque. Et ex accusantium id labore ab fuga tempore quis?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quod at labore amet accusantium nesciunt sunt nobis optio? Obcaecati, consequuntur neque. Et ex accusantium id labore ab fuga tempore quis?
+            </div>
+          </section>
 
-    <button
-      class="operator"
-      class="test2"
-      id="calc-test3"
-      onclick="appendOperator('/')"
-    >
-      /
-    </button>
+        <section id="about-section" class="about-section">
+          <p class="headings">ABOUT</p>
+          <div class="about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsum soluta odio possimus iste quas, saepe quos tempora ratione. Facere soluta aperiam reiciendis similique error vero officiis nostrum accusamus. Esse!
+          </div>
+        </section>
 
+        <section id="projects" class="projects">
+          <p class="headings">PROJECTS</p>
+
+        </section>
+
+        <section id="blogs" class="blogs">
+          <p class="headings">BLOGS</p>
+
+
+        </section>
+
+        <section id="final-section" class="final-section">
+          <div class="reach-me-section">
+            <p class="reach-me">Reach me</p>
+
+          </div>
+        </section>
+      </div>
+
+      
+    </main>
     <script src="event-listener.js"></script>
   </body>
 </html>

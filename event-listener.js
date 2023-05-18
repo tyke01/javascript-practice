@@ -1,4 +1,4 @@
-const button = document.getElementById('myButton');
+/*const button = document.getElementById('myButton');
 
 button.addEventListener('click', function () {
     console.log('Button clicked!');
@@ -12,8 +12,10 @@ function testUnit() {
     let unit2 = document.getElementById('calc-test2').innerHTML;
     console.log(unit2)
     document.getElementById('text1').innerHTML = unit2
-}
+}*/
 
+
+/*
 let expression = '';
 
 function appendNumber(number) {
@@ -27,11 +29,32 @@ function calculate() {
     appendNumber();
     appendOperator();
 
-    if (operator==='/'){
-        number/number;
-        document.getElementById('display1').innerHTML= number;
-    }
 }
 function updateResult() {
 
+}*/
+/*
+let grade = 'B';
+switch(grade){
+    case 'A':
+        console.log('good job');
+        break;
+    case 'B':
+        console.log('pretty nice');
+        break;
+
+    case 'c':
+        console.log('improve');
+        break;
+
+    default:
+        console.log(grade, 'is not a letter grade. ')
+
 }
+*/
+const dropdownButton = document.getElementById('dropbtn');
+const dropdownMenu = document.getElementById('dropdownMenu');
+
+dropdownButton.addEventListener('mouseover', function () {
+    dropdownMenu.classList.toggle('show');
+})
